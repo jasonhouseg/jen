@@ -1,0 +1,7 @@
+server:
+  port: 8855
+spring:
+  application:
+    name: jen
+  profiles:
+    active: dev
