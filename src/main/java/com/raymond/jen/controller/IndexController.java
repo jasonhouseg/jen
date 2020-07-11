@@ -11,6 +11,6 @@ public class IndexController {
     @RequestMapping(value = "/hello", method = {org.springframework.web.bind.annotation.RequestMethod.GET, org.springframework.web.bind.annotation.RequestMethod.POST})
     @ResponseBody
     public String index() {
-        return "hello,jen";
+        return "hello,jenkins";
     }
 }
